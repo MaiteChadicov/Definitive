@@ -1,0 +1,140 @@
+body{ 
+        background-image: url(fondito.png);
+
+
+}
+
+p{ color:#E05555;
+    font-family: Sancreek, cursive , "Verdana Neue";
+    block-size: 30px;
+    font-size: 50px;
+    align-content: center;    
+
+}
+
+
+table,td { 
+			width: 70%;
+            height:8px;
+            block-size: 30px;
+            background-color: #fff5f0;
+            align-items: center;
+}
+
+ol {	color: #723147 ;
+		font-family: "Open Sans", Arial, "Verdana Neue";
+
+}
+
+
+a { display: block;
+	padding: 8px;
+	color: #D9486E;
+ 	text-decoration:none; 
+    width: 100px;
+    text-align: center;
+    background-color: #FCFFF5;
+    font-family: 'Happy Monkey', cursive;
+
+ }
+
+a:hover {
+
+		border-bottom-width:1px;
+		border-top-color: #E8837C;
+		border-bottom-style: dotted;
+		background-color: #ffbdc0;
+        color: #ffffff;
+        
+
+}
+
+.active {
+    background-color:#E8837C;
+    color: #FCFFF5; 
+
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+
+}
+
+li {
+	float: left;
+}
+
+h4 {
+	font-family: font-family: 'Pangolin', cursive;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #E05555;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    color: #EC5771;
+}
+
+
+.slider { 
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider ul { 
+        padding: 0;
+        display: flex;
+        width: 400%;
+        animation: cambio 20s infinite alternate;
+        animation-timing-function: ease-in;
+
+}
+
+.slider li { 
+        list-style: none;
+        width: 100%;
+
+}
+
+.slider img {
+        width: 100%;
+
+}
+
+@keyframes cambio {
+        
+        0%{margin-left: 0;}
+        20%{margin-left: 0;}
+
+        25%{margin-left: -100%;}
+        45%{margin-left: -100%;}
+
+        50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+
+        75%{margin-left: -300%;}
+        100%{margin-left: -300%;}
+
+
+}
+
+
+.zoom:hover {
+
+    transform: scale(1.2);
+}
+
+
+.zoom{
+    transition: transform .5s;
+
+}
